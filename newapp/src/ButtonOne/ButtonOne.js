@@ -1,5 +1,6 @@
 import React from 'react';
 import './ButtonOne.css'
+import Buttons from '../Buttons/Buttons'
 
 
 
@@ -14,7 +15,7 @@ const ButtonOne = (props) => {
   return (
 
 <div>
-<button className = "One" onClick={()=> window.open('https://aws.amazon.com/')}>Which Cloud?</button>
+<a className = "One" href = '/Button'>Which Cloud?</a>
 
 
 </div>

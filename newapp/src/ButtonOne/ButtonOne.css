@@ -1,11 +1,14 @@
 .One {
-  width: 240px;
-  height: 75px;
+  width: 250px;
+  height: 90px;
   font-size: 30px;
+  padding: 10px;
   font-family: monospace;
   border-radius: 15px;
   background:  rgb(51, 204, 255, 0.3);
   box-shadow: 3px 3px 10px;
+  text-decoration: none;
+  
 
 }
 
