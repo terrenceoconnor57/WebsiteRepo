@@ -1,0 +1,41 @@
+div {
+  text-align: center;
+}
+
+.first{
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+  margin: 10px;
+  font-size: 40px;
+  color: white;
+  font-family: impact;
+  background-image: url("awsnews.jpg");
+}
+
+.second{
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+  margin: 10px;
+  font-size: 40px;
+  color: white;
+  font-family: impact;
+  background-image: url("microsoft.jpg");
+}
+
+.third{
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+  margin: 10px;
+  font-size: 40px;
+  color: white;
+  font-family: impact;
+  background-image: url("google.jpeg");
+}
+
+.first:hover, .second:hover, .third:hover{
+  height: 155px;
+  width: 205px;
+}

@@ -5,6 +5,12 @@ height: 100%;
 margin: 0;
 padding: 0;
 
+
+}
+
+.cent {
+  background: white;
+  height: 360px;
 }
 
 .menu {
@@ -18,7 +24,7 @@ padding: 0;
 
 }
 
-.App li {
+.mainmenu {
   display: inline-block;
   margin: 20px;
 }
@@ -53,6 +59,7 @@ padding: 0;
 
 .Providers {
   text-align: center;
+  font-size: 50px;
   width: 100%;
 
 }
