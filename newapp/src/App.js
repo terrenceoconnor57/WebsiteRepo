@@ -34,8 +34,9 @@ class App extends Component {
 
     <br/>
     <br/>
+    <nav className = 'nav'>
 <ButtonOne/>
-
+</nav>
 
 
 
