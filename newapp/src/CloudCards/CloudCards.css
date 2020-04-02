@@ -1,0 +1,29 @@
+.CloudCards ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  background: #163178;
+}
+
+.CloudCards li {
+  display: inline-block;
+
+
+}
+
+.CloudCards a {
+  text-decoration: none;
+  color: white;
+  font-family: monospace;
+  font-size: 20px;
+  
+}
+
+
+.CloudCards nav {
+  padding: 5px;
+  margin-top: 10px;
+
+}

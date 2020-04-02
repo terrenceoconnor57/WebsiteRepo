@@ -1,0 +1,18 @@
+.Summary p {
+  width: 75%;
+  text-align: center;
+  border: 2px solid black;
+  margin: auto;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  background: #163178;
+  font-family: monospace;
+  font-size: 22px;
+}
+
+.Summary nav {
+  padding: 5px;
+  margin-top: 10px;
+
+}
