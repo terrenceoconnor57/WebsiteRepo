@@ -26,12 +26,12 @@ class App extends Component {
     </header>
 
     <h1>CloudWhich.com</h1>
-    <h2>Your source for cloud updates.</h2>
+    <h2>Which cloud is for you?</h2>
     <Summary me= "Hey"/>
     <br/>
-    <h2 className = 'Providers'>Top Cloud Providers</h2>
     <br/>
-    <br/>
+    <h2 className = 'Providers'>Choose a provider</h2>
+
     <CloudCards/>
 
 

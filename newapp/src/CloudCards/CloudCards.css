@@ -24,18 +24,19 @@
 
 .Provs {
   text-decoration: none;
-  color: white;
+  color: black;
   font-family: monospace;
-  font-size: 50px;
+  font-size: 30px;
   border: 1px solid black;
   border-radius: 20px;
-  padding: 60px;
-  background: #163178;
+  padding-right: 30px;
+  padding-left: 30px;
+  background: white;
 
 }
 
 .Provs:hover {
-  background: blue;
+  background: #163178;
 }
 
 

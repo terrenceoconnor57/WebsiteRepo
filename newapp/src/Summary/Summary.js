@@ -5,10 +5,10 @@ const Summary = (props) => {
   return (
     <div className="Summary">
     <nav>
-  <p>This is a {props.me} from the 2nd component.
-  Explore more than 60 products and start building on AWS using the free tier.
-  Three different types re available depending on the product used.
-  See below for details on each product.</p>
+  <p>
+  Here at CloudWhich.com, we provide you with a nonbiased opinion
+  of the most popular cloud service providers in the industry. This includes
+  AWS, Azure, and Google Cloud Platform. Please browse the site to learn more!</p>
   </nav>
   </div>
 )

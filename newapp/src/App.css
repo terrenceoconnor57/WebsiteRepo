@@ -13,7 +13,8 @@ padding: 0;
   padding: 0;
   width: 100%;
   text-align: center;
-  background: #163178;
+  background: white;
+  border-bottom: 1px solid #163178;
 
 }
 
@@ -24,7 +25,7 @@ padding: 0;
 
 .menufont {
   text-decoration: none;
-  color: white;
+  color: black;
   font-family: monospace;
   font-size: 20px;
 }
@@ -35,7 +36,8 @@ padding: 0;
 .App h1 {
   text-align: center;
   width: 100%;
-  font-family: cursive;
+  font-family: impact;
+  letter-spacing: 3px;
   font-size: 40px;
   padding-bottom: 0px;
   margin-bottom: 0px;
