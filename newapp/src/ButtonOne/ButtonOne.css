@@ -1,0 +1,16 @@
+.One {
+  width: 240px;
+  height: 75px;
+  font-size: 30px;
+  font-family: monospace;
+  border-radius: 15px;
+  background:  rgb(51, 204, 255, 0.3);
+  box-shadow: 3px 3px 10px;
+
+}
+
+.One:hover {
+  cursor: pointer;
+  background:  rgb(51, 204, 255, 0.5);
+  box-shadow: 5px 5px 10px;
+}
