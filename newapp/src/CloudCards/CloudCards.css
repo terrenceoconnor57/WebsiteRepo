@@ -1,29 +1,48 @@
-.CloudCards ul {
+.CloudCards  {
   list-style: none;
   margin: 0;
   padding: 0;
   width: 100%;
   text-align: center;
-  background: #163178;
+
 }
 
-.CloudCards li {
+.Clouds {
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+
+}
+
+
+.list {
   display: inline-block;
-
-
 }
 
-.CloudCards a {
+.Provs {
   text-decoration: none;
   color: white;
   font-family: monospace;
-  font-size: 20px;
-  
+  font-size: 50px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 60px;
+  background: #163178;
+
+}
+
+.Provs:hover {
+  background: blue;
 }
 
 
-.CloudCards nav {
-  padding: 5px;
+.navi {
+
   margin-top: 10px;
+  background: black;
+
 
 }
