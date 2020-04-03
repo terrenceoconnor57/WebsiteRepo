@@ -2,10 +2,10 @@ import React from 'react';
 import './Summary.css'
 import {BrowserRouter} from 'react-router-dom';
 import {Route} from 'react-router-dom';
-const Summary2 = (props) => {
+const Summary3 = (props) => {
   return (
     <div className="Summary">
-  <p>This is a summary from about AWS.</p>
+  <p>This is a summary from about Azure.</p>
 
 <nav className ='cnt'>
 <ul className= "lglist">
@@ -15,7 +15,7 @@ const Summary2 = (props) => {
   <li><a>ELB</a></li>
   <li><a>Lambda</a></li>
   <li><a>IAM</a></li>
-  
+
 
 </ul>
 </nav>
@@ -27,4 +27,4 @@ const Summary2 = (props) => {
 
 
 
-export default Summary2;
+export default Summary3;

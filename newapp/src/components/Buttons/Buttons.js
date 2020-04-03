@@ -14,9 +14,9 @@ const Buttons = (props) => {
   return (
 
 <div className = 'buttn'>
-<a className = "first" href = "/">AWS</a>
-<a className = "second" href = "/Button">Azure</a>
-<a className = "third" href = "/Button">Google</a>
+<a className = "first" href = "/Summary/Summary2">AWS</a>
+<a className = "second" href = "/Summary/Summary3">Azure</a>
+<a className = "third" href = "/Summary/Summary4">Google</a>
 
 </div>
 )
