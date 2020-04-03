@@ -48,7 +48,7 @@
 
 }
 
-.first:hover, .second:hover, .second:hover {
+.first:hover, .second:hover, .third:hover {
   cursor: pointer;
   color: black;
   background:  rgb(51, 204, 255, 0.5);

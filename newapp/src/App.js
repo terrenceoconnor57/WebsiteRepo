@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import {BrowserRouter, Route} from 'react-router-dom';
 import './App.css';
-import Card from './Card/Card';
-import Summary from './Summary/Summary';
-import CloudCards from './CloudCards/CloudCards';
+
+import Summary from './components/Summary/Summary';
+
 import Buttons from './components/Buttons/Buttons';
 import ButtonOne from './components/ButtonOne/ButtonOne';
-import Home from './Home/Home'
+
 
 class App extends Component {
   state = {
@@ -35,9 +35,9 @@ class App extends Component {
     <header>
       <nav>
         <ul className = "menu">
-          <li className = 'mainmenu'><a className = 'menufont' href = "/">Home</a></li>
+          <li className = 'mainmenu'><a className = 'menufont' href = "/ButtonOne">Home</a></li>
           <li className = 'mainmenu'><a className = 'menufont' href = "/">Blog</a></li>
-          <li className = 'mainmenu'><a className = 'menufont' href = "/">About</a></li>
+          <li className = 'mainmenu'><a  className = 'menufont' href = "/Summary">About</a></li>
           <li className = 'mainmenu'><a className = 'menufont' href = "/">Contact</a></li>
         </ul>
       </nav>
@@ -49,13 +49,15 @@ class App extends Component {
     <br/>
     <br/>
     <nav className = 'nav'>
-<ButtonOne/>
+
+
 </nav>
 
 
     </div>
     <Route path = "/Button" exact component={Buttons} />
-
+    <Route path = "/Summary" exact component={Summary} />
+    <Route path = "/ButtonOne" exact component={ButtonOne} />
 </BrowserRouter>
 
 
