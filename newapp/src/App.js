@@ -4,15 +4,29 @@ import './App.css';
 import Card from './Card/Card';
 import Summary from './Summary/Summary';
 import CloudCards from './CloudCards/CloudCards';
-import Buttons from './Buttons/Buttons';
-import ButtonOne from './ButtonOne/ButtonOne';
+import Buttons from './components/Buttons/Buttons';
+import ButtonOne from './components/ButtonOne/ButtonOne';
 import Home from './Home/Home'
 
 class App extends Component {
+  state = {
+    visible: true
+  };
+
+
+
+
+  //clickHandle = () => {
+  //display('none');
+  //}
+
+
   render(){
     const style = {
       padding: '20px'
     }
+
+    const buttonText = this.state.visible ? "hide": "show";
 
   return (
     <BrowserRouter>
@@ -21,7 +35,7 @@ class App extends Component {
     <header>
       <nav>
         <ul className = "menu">
-          <li className = 'mainmenu'><a className = 'menufont' href = "/Button">Home</a></li>
+          <li className = 'mainmenu'><a className = 'menufont' href = "/">Home</a></li>
           <li className = 'mainmenu'><a className = 'menufont' href = "/">Blog</a></li>
           <li className = 'mainmenu'><a className = 'menufont' href = "/">About</a></li>
           <li className = 'mainmenu'><a className = 'menufont' href = "/">Contact</a></li>
@@ -39,9 +53,9 @@ class App extends Component {
 </nav>
 
 
-
     </div>
     <Route path = "/Button" exact component={Buttons} />
+
 </BrowserRouter>
 
 

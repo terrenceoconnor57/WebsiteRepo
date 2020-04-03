@@ -10,11 +10,10 @@ import Buttons from '../Buttons/Buttons'
 
 
 
-
 const ButtonOne = (props) => {
   return (
 
-<div>
+<div className = 'buttonone'>
 <a className = "One" href = '/Button'>Which Cloud?</a>
 
 

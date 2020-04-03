@@ -63,3 +63,31 @@ padding: 0;
   width: 100%;
 
 }
+
+
+.show {
+  width: 250px;
+  height: 90px;
+  font-size: 30px;
+  padding: 10px;
+  color: black;
+  font-family: sans-serif;
+  border-radius: 15px;
+  background:  rgb(51, 204, 255, 0.1);
+  box-shadow: 3px 3px 10px black;
+  text-decoration: none;
+
+
+}
+
+.show:hover {
+  cursor: pointer;
+  color: black;
+  background:  rgb(51, 204, 255, 0.5);
+  box-shadow: 5px 5px 10px black;
+}
+
+.show:active {
+  background:  rgb(51, 204, 255, 0.3);
+  box-shadow: 3px 3px 10px black;
+}
