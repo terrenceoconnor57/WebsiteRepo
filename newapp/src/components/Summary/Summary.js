@@ -5,8 +5,8 @@ import {Route} from 'react-router-dom';
 
 const Summary = (props) => {
   return (
-    <div className="Summary">
-    <nav>
+    <div className="Summary1">
+    <nav className = 'paragraph'>
   <p>
   Here at CloudWhich.com, we provide you with a nonbiased opinion
   of the most popular cloud service providers in the industry. This includes

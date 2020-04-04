@@ -39,7 +39,7 @@ padding: 0;
 .menufont:hover {
   color: orange;
 }
-.App h1 {
+.title {
   text-align: center;
   width: 100%;
   font-family: impact;

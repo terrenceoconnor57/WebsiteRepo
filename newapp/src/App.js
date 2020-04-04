@@ -38,14 +38,14 @@ class App extends Component {
       <nav>
         <ul className = "menu">
           <li className = 'mainmenu'><a className = 'menufont' href = "/ButtonOne">Home</a></li>
-          <li className = 'mainmenu'><a className = 'menufont' href = "/">Blog</a></li>
-          <li className = 'mainmenu'><a  className = 'menufont' href = "/Summary">About</a></li>
-          <li className = 'mainmenu'><a className = 'menufont' href = "/">Contact</a></li>
+          <li className = 'mainmenu'><a className = 'menufont' href = "/Summary">About</a></li>
+          <li className = 'mainmenu'><a  className = 'menufont' href = "/Buttons">Providers</a></li>
+          <li className = 'mainmenu'><a className = 'menufont' href = "https://github.com/terrenceoconnor57/WebsiteRepo">GitHub</a></li>
         </ul>
       </nav>
     </header>
 
-    <h1>CloudWhich.com</h1>
+    <h1 className = "title">CloudWhich.com</h1>
         <h2>Which cloud is for you?</h2>
 
     <br/>
@@ -59,7 +59,7 @@ class App extends Component {
 
 
     </div>
-    <Route path = "/Button" exact component={Buttons} />
+    <Route path = "/Buttons" exact component={Buttons} />
 
     <Route path = "/ButtonOne" exact component={ButtonOne} />
 

@@ -6,7 +6,7 @@
   color: black;
   font-family: sans-serif;
   border-radius: 15px;
-  background:  rgb(51, 204, 255, 0.1);
+  background: rgb(255,255,255,0.7);
   box-shadow: 3px 3px 10px black;
   text-decoration: none;
 
@@ -16,12 +16,12 @@
 .One:hover {
   cursor: pointer;
   color: black;
-  background:  rgb(51, 204, 255, 0.5);
+  background: rgb(255,255,255,0.9);
   box-shadow: 5px 5px 10px black;
 }
 
 .One:active {
-  background:  rgb(51, 204, 255, 0.3);
+  background: rgb(255,255,255,0.7);
   box-shadow: 3px 3px 10px black;
 
 }

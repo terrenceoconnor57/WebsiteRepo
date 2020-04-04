@@ -15,7 +15,7 @@ const ButtonOne = (props) => {
   return (
 
 <div className = 'buttonone'>
-<a className = "One" href = '/Button'>Which Cloud?</a>
+<a className = "One" href = '/Buttons'>Which Cloud?</a>
 
 
 </div>

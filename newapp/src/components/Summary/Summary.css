@@ -1,14 +1,41 @@
+
+.Summary {
+  background: rgb(255,255,255,0.7);
+  padding: 1px;
+  border-radius: 10px;
+  padding-bottom: 30px;
+}
+
+
+.Summary1 {
+  text-align: center;
+  background: rgb(255,255,255,0.7);
+  padding: 1px;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+
 .Summary p {
   width: 75%;
   text-align: center;
   margin: auto;
   padding: 20px;
-  border-radius: 5px;
   color: black;
-  background:  rgb(51, 204, 255, 0.1);
-  box-shadow: 3px 3px 10px black;
   font-family: verdana;
   font-size: 22px;
+}
+
+.AWSh {
+  text-align: center;
+  font-family: impact;
+  font-size: 80px;
+  padding-top: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .cnt {
@@ -18,21 +45,34 @@
   border-radius: 10px;
   margin-top: 0px;
   padding-top: 0px;
-  background:  rgb(51, 204, 255, 0.5);
+  background:  white;
   box-shadow: 5px 5px 10px black;
 }
 
+.resourcetitle {
+  font-family: verdana ;
+  text-align: center;
+  font-size: 45px;
+  padding: 0;
+
+}
+
 .lglist a {
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 5px;
   padding: 15px;
+  background:  rgb(174, 178, 194, 0.5);
+  box-shadow: 2px 2px 3px black;
   float: right;
+  cursor: pointer;
 }
+
+
 
 .lglist {
   list-style: none;
   text-align: center;
-  padding: 10px;
+  padding: 0px;
   margin: 20px;
 
 
@@ -44,4 +84,9 @@
   padding: 10px;
   margin:10px;
   float: inherit;
+}
+
+.lglist a:hover {
+  background:  rgb(174, 178, 194);
+  box-shadow: 5px 5px 7px black;
 }
