@@ -6,7 +6,7 @@ const Summary2 = (props) => {
   return (
     <div className="Summary">
 
-    <h1 className = 'AWSh'>Amazon Web Services</h1>
+    <h1 className = 'AWSh'>Amazon</h1>
   <p>In 2006, AWS started to offer their Infrastructure as a Service platform
   to many businesses around the world. This quickly became known as Cloud computing.</p>
   <p>Whether its hosting a static website, having globally redundant storage, or spinning up thousands of

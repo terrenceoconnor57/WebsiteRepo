@@ -21,7 +21,7 @@
 
 .paragraph p {
   font-size: 18px;
-  font-family: verdana;
+
 }
 
 .Summary p {
@@ -30,13 +30,13 @@
   margin: auto;
   padding: 10px;
   color: black;
-  font-family: verdana;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
 }
 
 .AWSh {
   text-align: center;
-  font-family: impact;
+  font-family: 'Audiowide', cursive;
   font-size: 80px;
   padding-top: 0px;
   margin-top: 10px;
@@ -55,7 +55,7 @@
 }
 
 .resourcetitle {
-  font-family: verdana ;
+  font-family: 'Audiowide', cursive;
   text-align: center;
   font-size: 45px;
   padding: 0;
@@ -63,6 +63,7 @@
 }
 
 .lglist a {
+  font-family: 'Share', cursive;
   border: 1px solid black;
   border-radius: 5px;
   padding: 15px;
@@ -92,6 +93,6 @@
 }
 
 .lglist a:hover {
-  background:  rgb(174, 178, 194);
+  background: rgb(255,165,0,0.5);
   box-shadow: 5px 5px 7px black;
 }

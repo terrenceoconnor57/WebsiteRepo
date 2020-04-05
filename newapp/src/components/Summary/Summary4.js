@@ -5,13 +5,13 @@ import {Route} from 'react-router-dom';
 const Summary4 = (props) => {
   return (
     <div className="Summary">
-    <h1 className = 'AWSh'>Google Cloud</h1>
+    <h1 className = 'AWSh'>Google</h1>
     <p>Google Cloud Platform was initally launched in April 2008. It currently holds 8% of the
     worldwide market share for cloud service providers.</p>
     <p>A lot of companies these days struggle with migrating an application to the cloud that has already been
     written. Google Cloud Platform makes it easy to run these applications on-premise and in the cloud
     with no change in infrastructure.</p>
-    
+
 
 <nav className ='cnt'>
 <h1 className = 'resourcetitle'>Resources</h1>

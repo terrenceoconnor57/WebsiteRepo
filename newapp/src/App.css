@@ -42,15 +42,17 @@ padding: 0;
 .title {
   text-align: center;
   width: 100%;
-  font-family: impact;
   letter-spacing: 3px;
-  font-size: 40px;
+  font-family: 'Righteous', cursive;
+  font-size: 50px;
+  padding-right: 0px;
   padding-bottom: 0px;
   margin-bottom: 0px;
-  margin-top: 5px;
+  margin-top: 0px;
 }
 
 .App h2 {
+  font-family: 'Righteous', cursive;
   text-align: center;
   width: 100%;
   padding-bottom: 0px;
