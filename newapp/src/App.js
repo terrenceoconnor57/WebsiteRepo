@@ -39,7 +39,7 @@ class App extends Component {
         <ul className = "menu">
           <li className = 'mainmenu'><a className = 'menufont' href = "/ButtonOne">Home</a></li>
           <li className = 'mainmenu'><a className = 'menufont' href = "/Summary">About</a></li>
-          <li className = 'mainmenu'><a  className = 'menufont' href = "/Buttons">Providers</a></li>
+          <li className = 'mainmenu'><a  className = 'menufont' href = "/Buttons">Clouds</a></li>
           <li className = 'mainmenu'><a className = 'menufont' href = "https://github.com/terrenceoconnor57/WebsiteRepo">GitHub</a></li>
         </ul>
       </nav>

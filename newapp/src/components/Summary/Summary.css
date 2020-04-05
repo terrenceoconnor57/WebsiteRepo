@@ -4,6 +4,7 @@
   padding: 1px;
   border-radius: 10px;
   padding-bottom: 30px;
+
 }
 
 
@@ -15,18 +16,22 @@
   padding-bottom: 5px;
   margin-left: 100px;
   margin-right: 100px;
+
 }
 
-
+.paragraph p {
+  font-size: 18px;
+  font-family: verdana;
+}
 
 .Summary p {
   width: 75%;
   text-align: center;
   margin: auto;
-  padding: 20px;
+  padding: 10px;
   color: black;
   font-family: verdana;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .AWSh {

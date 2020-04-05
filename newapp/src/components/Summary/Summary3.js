@@ -6,7 +6,16 @@ const Summary3 = (props) => {
   return (
     <div className="Summary">
     <h1 className = 'AWSh'>Azure</h1>
-  <p>This is a summary from about Azure.</p>
+    <p>Azure was initally launched in February 2010 as "Windows Azure". It was then
+    renamed to "Microsoft Azure" in March of 2014. Azure currently holds 18% of the
+    worldwide market share for cloud service providers.</p>
+    <p>Many companies that are deciding to move their on-premise infrastructure to the cloud
+    are already committed to a number of Microsoft products. Azure makes it very easy for these companies
+    to migrate.</p>
+    <p>As a holder of the Microsoft Azure Fundamentals certification, I can say that the Azure Platform
+    has made it easy for enterprise businesses to setup or migrate their IT infrastructure onto the platform.
+    One of my favorite things about the Azure platform is the hierarchical structure to navigate
+    between resources, Active Directory groups, etc.</p>
 
 <nav className ='cnt'>
 <h1 className = 'resourcetitle'>Resources</h1>

@@ -7,7 +7,14 @@ const Summary2 = (props) => {
     <div className="Summary">
 
     <h1 className = 'AWSh'>Amazon Web Services</h1>
-  <p>This is a summary from about AWS.</p>
+  <p>In 2006, AWS started to offer their Infrastructure as a Service platform
+  to many businesses around the world. This quickly became known as Cloud computing.</p>
+  <p>Whether its hosting a static website, having globally redundant storage, or spinning up thousands of
+  servers for your business application, AWS is the platform for you.</p>
+  <p>As a holder of the AWS Certified Solutions Architect Certification, I can vouch for all of the
+  hype that surrounds AWS services. One of my favorite things about the AWS platform is the ease of navigating
+  and creating through the console. AWS makes it very easy to quickly spin up resources while ensuring that
+  they are secure.</p>
 
 <nav className ='cnt'>
 <h1 className = 'resourcetitle'>Resources</h1>
