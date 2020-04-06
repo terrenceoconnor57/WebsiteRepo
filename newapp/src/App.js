@@ -46,7 +46,7 @@ class App extends Component {
     </header>
 
     <h1 className = "title">CloudWhich.com</h1>
-        
+        <h2>Which cloud is for you?</h2>
 
     <br/>
     <br/>
