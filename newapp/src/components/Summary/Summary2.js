@@ -8,7 +8,9 @@ const Summary2 = (props) => {
 
     <h1 className = 'AWSh'>Amazon</h1>
   <p>In 2006, AWS started to offer their Infrastructure as a Service platform
-  to many businesses around the world. This quickly became known as Cloud computing.</p>
+  to many businesses around the world. This quickly became known as Cloud computing.
+  AWS currently holds 33% of the
+  worldwide market share for cloud service providers.</p>
   <p>Whether its hosting a static website, having globally redundant storage, or spinning up thousands of
   servers for your business application, AWS is the platform for you.</p>
   <p>As a holder of the AWS Certified Solutions Architect Certification, I can vouch for all of the

@@ -28,7 +28,7 @@ class App extends Component {
       padding: '20px'
     }
 
-    const buttonText = this.state.visible ? "hide": "show";
+
 
   return (
     <BrowserRouter>
@@ -37,9 +37,9 @@ class App extends Component {
     <header>
       <nav>
         <ul className = "menu">
-          <li className = 'mainmenu'><a className = 'menufont' href = "/ButtonOne">Home</a></li>
+          <li className = 'mainmenu'><a className = 'menufont' href = "/">Home</a></li>
           <li className = 'mainmenu'><a className = 'menufont' href = "/Summary">About</a></li>
-          <li className = 'mainmenu'><a  className = 'menufont' href = "/Buttons">Clouds</a></li>
+          <li className = 'mainmenu'><a  className = 'menufont' href = "/">Clouds</a></li>
           <li className = 'mainmenu'><a className = 'menufont' href = "https://github.com/terrenceoconnor57/WebsiteRepo">GitHub</a></li>
         </ul>
       </nav>
@@ -59,7 +59,7 @@ class App extends Component {
 
 
     </div>
-    <Route path = "/Buttons" exact component={Buttons} />
+    <Route path = "/" exact component={Buttons} />
 
     <Route path = "/ButtonOne" exact component={ButtonOne} />
 
